@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 5</title>
+  </head>
+  <style>
+    .container {
+      width: 850px;
+      height: 650px;
+      border: 1px dotted black;
+      background-color: #d9da3e;
+      display: grid;
+      grid-template-columns: 320px 1fr;
+    }
+    .left {
+      margin: 20px;
+    }
+    a {
+      font-weight: 400;
+      font-size: 1.4em;
+      text-decoration: none;
+      color: blue;
+    }
+    a:hover {
+      color: purple;
+    }
+    .left-container {
+      width: 220px;
+      display: grid;
+      grid-template-columns: 200px 20px;
+      transition: 0.5s;
+      margin-bottom: 5%;
+    }
+
+    .leftbox {
+      width: 200px;
+      height: 30px;
+      background-color: white;
+      text-align: left;
+      padding-top: 10px;
+      padding-left: 5px;
+    }
+    .rightbox {
+      width: 30px;
+      background-color: black;
+    }
+    #para1 {
+      color: purple;
+      font-size: 3em;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bolder;
+      margin-top: 0%;
+    }
+    #para2 {
+      font-size: 1.5em;
+      color: purple;
+    }
+    .line {
+      border: 1px dotted #90008c;
+      width: 500px;
+    }
+    i {
+      font-size: 1.5em;
+      color: purple;
+      font-weight: 500;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left-container">
+          <div class="leftbox"><a href="#">Home Page</a></div>
+          <div class="rightbox"></div>
+        </div>
+        <div class="left-container">
+          <div class="leftbox"><a href="#">Musings</a></div>
+          <div class="rightbox"></div>
+        </div>
+        <div class="left-container">
+          <div class="leftbox"><a href="#">My town</a></div>
+          <div class="rightbox"></div>
+        </div>
+        <div class="left-container">
+          <div class="leftbox"><a href="#">Links</a></div>
+          <div class="rightbox"></div>
+        </div>
+      </div>
+      <div class="right">
+        <p id="para1">My first styled page</p>
+        <p id="para2">
+          Welcome to my styled page!
+          <br /><br />
+          It lacks images,but at least it has style.And it <br />
+          has links,even if they don't go anywhere...
+          <br /><br />
+          There should be more here,but I don't know <br />what yet.
+        </p>
+        <div class="line"></div>
+        <br />
+        <i>
+          Made 5 April 2004<br />
+          by myself
+        </i>
+      </div>
+    </div>
+  </body>
+</html>

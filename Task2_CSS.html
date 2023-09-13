@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 2</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 300px;
+        height: 900px;
+      }
+      .v-container {
+        border: 1px solid black;
+        width: 200px;
+        height: 250px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 10px 10px 0px 10px;
+        padding: 0;
+        background-color: #add9e6;
+      }
+      li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+      }
+      li a:hover {
+        background-color: #fea500;
+        color: white;
+      }
+      .h {
+        margin-top: 100px;
+      }
+      .h-container {
+        border: 1px solid black;
+        width: 300px;
+        height: 150;
+      }
+      .h-container ul {
+        list-style-type: none;
+        display: flex;
+        margin: 10px 0px 10px 10px;
+        padding: 0;
+        background-color: #d3d3d3;
+      }
+      .h-container li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        border-right: 1px solid blue;
+      }
+      .h-container li a:hover {
+        background-color: #808080;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="v">
+        <h3>Vertical Navigation Bar</h3>
+        <div class="v-container">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="h">
+        <h3>Horizontal Navigation Bar</h3>
+        <div class="h-container">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

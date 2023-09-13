@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  height: 400px;
+  width: 550px;
+  border: 2px solid black;
+}
+#button1,
+#button2,
+#button3,
+#button4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 0px 5px 5px 0px;
+  margin: 10px 0px;
+  transition: background-color 0.5s, transform 0.5s;
+}
+#button1 {
+  background-color: #04a96d;
+}
+#button2 {
+  background-color: #2196f3;
+}
+#button3 {
+  background-color: #f44236;
+}
+#button4 {
+  background-color: #555555;
+}
+#button1:hover {
+  background-color: #0d8f5f;
+  transform: scale(1.1);
+}
+#button2:hover {
+  background-color: #2196f3;
+  transform: scale(1.1);
+}
+#button3:hover {
+  background-color: #f44236;
+  transform: scale(1.1);
+}
+#button4:hover {
+  background-color: #555555;
+  transform: scale(1.1);
+}
+#button1:hover {
+  background-color: #0d8f5f;
+  transform: scale(1.1);
+}
+.right {
+  margin: 0px 30px;
+}
